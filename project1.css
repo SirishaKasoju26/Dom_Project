@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2';
+    scroll-behavior: smooth;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#scrollLine {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+/* ========= NAVBAR ========== */
+
+.navbar{
+    width: 100%;
+    height: 100vh;
+    /* padding: 30px; */
+    background: url(./Dom_images/page3.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar1{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 5px;
+    position: fixed;
+    z-index: 10;
+    transition: all 0.3s;
+}
+
+.navbar1:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-links{
+    display: flex;
+    gap: 100px;
+}
+
+.line a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.8s;
+}
+
+.line a:hover{
+    color: burlywood;
+    text-decoration:dashed;
+}
+
+.logo{
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: burlywood;
+    text-wrap: wrap;
+}
+
+
+.btn button{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(256, 256, 256, 0.1);
+    border: 1px solid antiquewhite;
+    color: antiquewhite;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn button:hover{
+    color: white;
+    background-color: rgba(256, 256, 256, 0.3);
+    border: 3px double white;
+}
+
+/* ========= HERO SECTION ========== */
+
+.heading{
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    gap: 30px;
+}
+
+
+.headingtext{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.headingtext span{
+    color: #AF5D21;
+}
+
+.heading h1{
+    font-size: 50px;
+}
+
+.headingbtn{
+    display: flex;
+    gap: 30px;
+}
+
+.headingbtn button{
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 3px double antiquewhite;
+    color: antiquewhite;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.headingbtn button:hover{
+    color: white;
+    background-color: rgba(256, 256, 256, 0.3);
+    border: 3px double white;
+}
+
+
+.playbuttonContainer{
+    width: 40%;
+    position: absolute;
+    right: 0px;
+    bottom: 280px;
+}
+
+.playbuttonContainer img{
+    width: 15%;
+}
+
+.playbutton{
+    cursor: pointer;
+    animation: bounceUpDown 2s infinite;
+}
+
+@keyframes bounceUpDown{
+    0%, 100%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-15px);
+    }
+}
+
+/*=================ABOUT===================*/
+
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+.about{
+    background: url(./Dom_images/page4.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.para p:nth-child(1){
+    color: orangered;
+    font-size: 30px;
+    font-weight: bolder;
+    /* font-style: oblique; */
+}
+
+.para p:nth-child(2){
+    color: white;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.image{
+    width: 100%;
+}
+
+
+.image img{
+    width: 100%;
+    border: 5px solid #857C75;
+    border-radius: 5px;
+}
+
+
+.image{
+    /* cursor: pointer; */
+    animation: bounceUp 2s infinite;
+}
+
+@keyframes bounceUp{
+    0%, 100%{
+        transform: translateY(10px);
+    }
+
+    50%{
+        transform: translateX(-15px);
+    }
+}
+
+/*=================VIDEOS====================*/
+
+.Videos{
+    position: relative;
+    /* width: 20%; */
+}
+
+.herosection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    position: absolute;
+    top: 100px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* .videopara h2{
+    color: orangered;
+} */
+
+
+.hero h2:nth-child(2){
+    color: black;
+}
+
+/*==================FOOD ITEM MENU=============================*/
+
+/* div {
+    text-align: center;
+    border-style: solid;
+    margin-left: 300px;
+    width:60%
+} */
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    /* background: url(./JSAssets/Red\ Illustrated\ Mascot\ Chef\ Free\ Logo.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; */
+}
+
+#content input{
+    width: 350px;
+}
+
+.content1 {
+    width: 150px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: white;
+    border: 3px double black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+th{
+    text-align: left;
+}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#alignment{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*===============TOP SCROLL==================*/
+
+#yourBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+    color: black;
+}
+  
