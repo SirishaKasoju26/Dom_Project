@@ -1,9 +1,6 @@
 # Dom_Project
-Creating a 
 
-
-## Description
-
+Explore our feature-rich web application developed with JavaScript, HTML, and CSS. It's the ultimate digital hub for our bar & restaurant, offering a seamless and immersive experience for our patrons. From browsing our diverse menu to making reservations, this website is crafted to elevate the overall customer experience.
 
 ## Demo
 ![dom1](https://github.com/SirishaKasoju26/Dom_Project/assets/132665292/7f33fa05-dc68-435f-bc82-ff8220111ac5)
@@ -12,3 +9,5 @@ Creating a
 ![dom4](https://github.com/SirishaKasoju26/Dom_Project/assets/132665292/04238fa0-f57d-4532-88ff-6e2d25920712)
 ![dom5](https://github.com/SirishaKasoju26/Dom_Project/assets/132665292/2bd932d8-6bc4-475d-9c21-7e4692ba9362)
 
+## Technologies
+JavaScript, HTML, CSS
