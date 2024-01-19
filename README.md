@@ -1,4 +1,4 @@
-# Dom_Project
+# GastronomyGateway
 
 Explore our feature-rich web application developed with JavaScript, HTML, and CSS. It's the ultimate digital hub for our bar & restaurant, offering a seamless and immersive experience for our patrons. From browsing our diverse menu to making reservations, this website is crafted to elevate the overall customer experience.
 
